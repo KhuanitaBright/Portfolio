@@ -98,7 +98,7 @@ div#header {
     font-weight: 500;
     line-height: 27px;
     margin-left: 90px;
-    width: 700px; }
+    width: 550px; }
 
 @media (max-width: 600px) {
   div#header {
@@ -125,7 +125,9 @@ div#header {
 div#nav {
   height: 90px;
   overflow: hidden;
-  background-color: #bad1da; }
+  background-color: #bad1da;
+  z-index: 3;
+  padding-right: 20px; }
 
 nav {
   display: inline-block;
@@ -134,7 +136,7 @@ nav {
   nav ul {
     list-style-type: none;
     width: 100%;
-    margin-right: 400px; }
+    margin-right: 300px; }
   nav li {
     display: inline-flex;
     justify-content: flex-end;
@@ -207,7 +209,8 @@ div#title-education {
     padding-left: 10px; } }
 div#title-skills {
   height: 100px;
-  margin-top: 300px; }
+  margin-top: 300px;
+  background-color: #bad1da; }
 
 @media (max-width: 600px) {
   div#title-skills {
@@ -340,13 +343,16 @@ div#title-cv {
         margin-top: -6px; } }
 div#title-latest-work {
   height: 100px;
-  margin-top: 170px; }
+  margin-top: 200px; }
 
 @media (max-width: 600px) {
   div#title-latest-work {
     width: 100%;
     margin-top: 450px;
     padding-left: 10px; } }
+#work-section {
+  background-color: #f4f4f4; }
+
 .l-work .l-mud {
   width: 33.3333333333%; }
 .l-work .l-sabc {
@@ -377,7 +383,10 @@ div#call-to-action {
     background-color: #4f5050;
     border: none;
     color: #f4f4f4;
-    border-radius: 3px; }
+    border-radius: 3px;
+    cursor: pointer; }
+  div#call-to-action button:hover {
+    background-color: #bad1da; }
 
 @media (max-width: 600px) {
   div#call-to-action {
@@ -398,6 +407,9 @@ div#footer {
   div#footer a {
     color: #838383;
     text-decoration: none; }
+  div#footer a:hover {
+    font-size: 30px;
+    color: #4f5050; }
 
 @media (max-width: 600px) {
   div#footer {
