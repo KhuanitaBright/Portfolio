@@ -55,10 +55,10 @@ body {
 
 .l-education .l-highschool {
   width: 25%;
-  border-right: 1px dotted grey; }
+  border-right: 1px dashed grey; }
 .l-education .l-college {
   width: 25%;
-  border-right: 1px dotted grey; }
+  border-right: 1px dashed grey; }
 .l-education .l-academy {
   width: 25%; }
 
@@ -209,7 +209,7 @@ div#title-education {
     padding-left: 10px; } }
 div#title-skills {
   height: 100px;
-  margin-top: 300px;
+  margin-top: 320px;
   background-color: #bad1da; }
 
 @media (max-width: 600px) {
@@ -291,10 +291,10 @@ div#title-cv {
   height: 200px; }
   .l-cv .l-job-1 {
     width: 41.6666666667%;
-    border-right: 1px dotted grey; }
+    border-right: 1px dashed grey; }
     .l-cv .l-job-1 h4 {
       font-weight: 600;
-      font-size: 24px;
+      font-size: 20px;
       line-height: 34px;
       margin-left: 40px; }
     .l-cv .l-job-1 p {
@@ -305,7 +305,7 @@ div#title-cv {
     width: 41.6666666667%; }
   .l-cv h4 {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 34px;
     margin-left: 40px; }
   .l-cv p {
@@ -343,7 +343,7 @@ div#title-cv {
         margin-top: -6px; } }
 div#title-latest-work {
   height: 100px;
-  margin-top: 200px; }
+  margin-top: 230px; }
 
 @media (max-width: 600px) {
   div#title-latest-work {
