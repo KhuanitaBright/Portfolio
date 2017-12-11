@@ -36,6 +36,7 @@
         <ul>
           <li id="scroll"><a href="#about"> ABOUT </a></li>
           <li id="scroll-two"><a href="#education"> EDUCATION </a></li>
+          <li id="scroll-twoo"><a href="#cv"> CV </a></li>
           <li id="scroll-three"><a href="#work"> LATEST WORK </a></li>
           <li id="scroll-four"><a href="#contact"> CONTACT </a></li>
         </ul>
@@ -116,11 +117,12 @@
 
     <div class="grid-item l-job-1">
       <div class="grid-inner">
-        <h4>JobVine SA</h4>
 
-        <p>Creative Content Writer</p>
+        <h4>Life Choices Academy</h4>
 
-        <p>Duty here involved managing JobVine’s social media accounts, writing all JobVine’s company profiles, creating and editing CSV documents of all online content, as well as to produce and edit content on their employment blog. The most successful blog posts has anywhere between 12000 to 56024 reads.</p>
+        <p>Front-end development</p>
+
+        <p>Recently completed a 6-month course with Lifechoices, learning the Most Important Job Skill of the Future, CODING! During the time at Lifechoices, I learned modern web languages(HTML, CSS, jQuery, JavaScript, Sass etc), design thinking and undergo professional development (i.e to work cohesively in a team and get practice with the tools used in the professional industry.) that has prepared me for the working world. I have gained confidence in being able to assess problems and design solutions to the problems.</p>
 
       </div>
     </div>
@@ -136,8 +138,39 @@
     </div>
 
   </div>
+
+
  </div>
 
+ <div class="two-col-grid">
+
+ <div class="l-cv" >
+
+ <div class="grid-item l-job-1">
+   <div class="grid-inner">
+
+
+     <h4>JobVine SA</h4>
+
+     <p>Creative Content Writer</p>
+
+     <p>Duty here involved managing JobVine’s social media accounts, writing all JobVine’s company profiles, creating and editing CSV documents of all online content, as well as to produce and edit content on their employment blog. The most successful blog posts has anywhere between 12000 to 56024 reads.</p>
+
+   </div>
+ </div>
+
+ <div class="grid-item l-job-2">
+   <div class="grid-inner">
+
+   </div>
+ </div>
+
+</div>
+
+
+</div>
+
+<div id="work-section">
  <div id="title-latest-work"><h3>Latest Work</h3></div>
 
   <div class="three-col-grid">
@@ -169,9 +202,6 @@
   <div id="footer">
     <div>
       <a href="https://za.linkedin.com/in/khuanita-bright-42a1214b" target="_blank"> <img src="Images\linkedin-logo.png" alt="linkedin" width="25px" height="25px"> LinkedIn</a> <a href="https://github.com/khuanitabright"target="_blank"> <img src="Images\github.png" alt="GitHub" width="25px" height="25px" style="padding-left: 0"> GitHub</a>
-    </div>
-    <div>
-
     </div>
     <p><a href="mailto:khuanitabright@gmail.com"> khuanitabright@gmail.com </a></p>
   </div>
@@ -209,6 +239,12 @@ $(function () {
   $('#scroll-two').click(function(){
     $('html, body').animate({
       scrollTop: $('#education').offset().top
+    },2000)
+  })
+
+  $('#scroll-twoo').click(function(){
+    $('html, body').animate({
+      scrollTop: $('#title-cv').offset().top
     },2000)
   })
 
