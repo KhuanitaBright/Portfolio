@@ -157,7 +157,7 @@ div#header {
     font-weight: 500;
     line-height: 27px;
     margin-left: 90px;
-    width: 700px;
+    width: 550px;
   }
 }
 
@@ -196,7 +196,8 @@ div#nav {
    height: 90px;
    overflow: hidden;
    background-color: $ternery-color;
-
+   z-index: 3;
+   padding-right: 20px;
  }
 
 nav {
@@ -207,7 +208,7 @@ nav {
      ul {
      list-style-type: none;
      width: 100%;
-     margin-right: 400px;
+     margin-right: 300px;
    }
 
    li {
@@ -301,6 +302,7 @@ div#title-education {
 div#title-skills {
   height: 100px;
   margin-top: 300px;
+  background-color: $ternery-color;
 }
 
 @media (max-width: 600px) {
@@ -309,6 +311,7 @@ div#title-skills {
     width: 100%;
     margin-top: 620px;
     padding-left: 10px;
+
   }
 }
 
@@ -508,7 +511,7 @@ div#title-cv {
 
 div#title-latest-work {
   height: 100px;
-  margin-top: 170px;
+  margin-top: 200px;
 }
 
 @media (max-width: 600px) {
@@ -517,6 +520,9 @@ div#title-latest-work {
     margin-top: 450px;
     padding-left: 10px;
   }
+}
+#work-section {
+  background-color: $secondary-color;
 }
 
 .l-work {
@@ -564,8 +570,14 @@ div#call-to-action {
         border: none;
         color: $secondary-color;
         border-radius: 3px;
+        cursor: pointer;
       }
+  button:hover {
+        background-color: $ternery-color;
+      }
+
 }
+
 @media (max-width: 600px) {
   div#call-to-action {
     width: 100%;
@@ -592,6 +604,10 @@ div#footer {
   a {
     color: $text-color;
     text-decoration: none;
+  }
+  a:hover {
+    font-size: 30px;
+    color: $theme-color;
   }
 }
 @media (max-width: 600px) {
