@@ -6,7 +6,8 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   color: #4f5050;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background-color: #FAFAFA; }
   body h1, body h2, body h3, body h4, body h5 {
     color: #838383; }
 
@@ -17,7 +18,8 @@ body {
 .l-wrap {
   max-width: 100%;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  background-color: #FAFAFA; }
 
 @media (max-width: 600px) {
   .l-wrap {
@@ -34,14 +36,24 @@ body {
   width: calc((100% * 3) / 3);
   margin-top: 0;
   float: left; }
+  .grid-items img {
+    -webkit-filter: blur(4px);
+    /* Chrome, Safari, Opera */
+    filter: blur(1px); }
+  .grid-items img:hover {
+    filter: none; }
 
+@media (max-width: 600px) {
+  .grid-items img {
+    filter: none; } }
 .grid-inner {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   align-items: left;
   height: 300px;
-  text-align: left; }
+  text-align: left;
+  background-color: #FAFAFA; }
   .grid-inner p {
     font-weight: 500;
     font-size: 17px;
@@ -200,7 +212,8 @@ h4 {
 
 div#title-education {
   height: 100px;
-  margin-top: -40px; }
+  margin-top: -40px;
+  background-color: #FAFAFA; }
 
 @media (max-width: 600px) {
   div#title-education {
@@ -209,7 +222,7 @@ div#title-education {
 div#title-skills {
   height: 100px;
   margin-top: 320px;
-  background-color: #bad1da; }
+  background-color: #fff; }
 
 @media (max-width: 600px) {
   div#title-skills {
@@ -276,7 +289,8 @@ div#carousel:hover > * {
     width: 100%;
     padding-left: 10px; } }
 div#title-cv {
-  height: 100px; }
+  height: 100px;
+  background-color: #FAFAFA; }
 
 @media (max-width: 600px) {
   div#title-cv {
@@ -373,8 +387,7 @@ div#call-to-action {
   height: 100px;
   margin-top: 300px;
   padding: 10px;
-  color: #4f5050;
-  background-color: #9b9d9e; }
+  color: #4f5050; }
   div#call-to-action button {
     font-size: 20px;
     padding: 10px;
@@ -385,7 +398,8 @@ div#call-to-action {
     border-radius: 3px;
     cursor: pointer; }
   div#call-to-action button:hover {
-    background-color: #bad1da; }
+    background-color: #bad1da;
+    color: #838383; }
 
 @media (max-width: 600px) {
   div#call-to-action {
