@@ -36,16 +36,11 @@ body {
   width: calc((100% * 3) / 3);
   margin-top: 0;
   float: left; }
-  .grid-items img {
-    -webkit-filter: blur(4px);
-    /* Chrome, Safari, Opera */
-    filter: blur(1px); }
   .grid-items img:hover {
-    filter: none; }
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
 
-@media (max-width: 600px) {
-  .grid-items img {
-    filter: none; } }
 .grid-inner {
   display: flex;
   justify-content: flex-start;
@@ -110,6 +105,10 @@ div#header {
     line-height: 27px;
     margin-left: 90px;
     width: 550px; }
+  div#header div img:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
 
 @media (max-width: 600px) {
   div#header {
@@ -222,7 +221,7 @@ div#title-education {
 div#title-skills {
   height: 100px;
   margin-top: 320px;
-  background-color: #fff; }
+  background-color: #bad1da; }
 
 @media (max-width: 600px) {
   div#title-skills {
@@ -387,7 +386,9 @@ div#call-to-action {
   height: 100px;
   margin-top: 300px;
   padding: 10px;
-  color: #4f5050; }
+  background-color: #9b9d9e; }
+  div#call-to-action h4 {
+    color: #fff; }
   div#call-to-action button {
     font-size: 20px;
     padding: 10px;
