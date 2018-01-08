@@ -10,8 +10,6 @@ $ternery-color: #bad1da;
 // blue-grey
 $action-color: #9b9d9e;
 $link-color: $secondary-color;
-// lightgrey/lightblue
-$background-color: #BAC6BC;
 
 // === Google Fonts ===
 @import url('https://fonts.googleapis.com/css?family=Raleway:500,700');
@@ -35,7 +33,6 @@ body {
   font-size: 14px;
   color: $theme-color;
   overflow-x: hidden;
-  background-color: #FAFAFA;
 
   h1, h2, h3, h4, h5 {
     color: $text-color;
@@ -53,7 +50,6 @@ body {
   max-width: 100%;
   margin-right: auto;
   margin-left: auto;
-  background-color: #FAFAFA;
 }
 
 @media (max-width: 600px) {
@@ -76,12 +72,6 @@ body {
   width: calc((100% * 3) / 3);
   margin-top: 0;
   float: left;
-
-  img:hover {
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
 }
 
 .grid-inner {
@@ -91,7 +81,7 @@ body {
   align-items: left;
   height: 300px;
   text-align: left;
-  background-color: #FAFAFA;
+
   p{
     font-weight: 500;
     font-size: 17px;
@@ -108,14 +98,12 @@ body {
 
 
 .l-education {
-
   .l-highschool {
     width: percentage(3/12);
-    border-right: 1px dashed grey;
+    border: none;
   }
   .l-college {
     width: percentage(3/12);
-    border-right: 1px dashed grey;
   }
   .l-academy {
     width: percentage(3/12);
@@ -156,26 +144,20 @@ div#header {
   margin-left: 90px;
   padding-top: 100px;
   }
-
   h4 {
     font-size: 24px;
     font-weight: 600;
     line-height: 34px;
     margin-left: 90px;
+    margin-top: 70px;
   }
-
   p {
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
     margin-left: 90px;
+    margin-top: 70px;
     width: 550px;
-  }
-
-  div img:hover {
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
   }
 }
 
@@ -297,7 +279,6 @@ h3 {
   line-height: 20px;
   margin-left: 60px;
   padding: 30px;
-
 }
 
 h4 {
@@ -310,7 +291,6 @@ h4 {
 div#title-education {
   height: 100px;
   margin-top: -40px;
-  background-color: #FAFAFA;
 }
 @media (max-width: 600px) {
   div#title-education {
@@ -323,7 +303,6 @@ div#title-skills {
   height: 100px;
   margin-top: 320px;
   background-color: $ternery-color;
-
 }
 
 @media (max-width: 600px) {
@@ -433,7 +412,6 @@ div#carousel {
 
 div#title-cv {
   height: 100px;
-  background-color: #FAFAFA;
 }
 
 @media (max-width: 600px) {
@@ -581,12 +559,9 @@ div#call-to-action {
   height: 100px;
   margin-top: 300px;
   padding: 10px;
+  color: $theme-color;
   background-color: $action-color;
 
-  h4 {
-  color: #fff;
-
-  }
   button {
         font-size: 20px;
         padding: 10px;
@@ -599,7 +574,6 @@ div#call-to-action {
       }
   button:hover {
         background-color: $ternery-color;
-        color: $text-color;
       }
 
 }
